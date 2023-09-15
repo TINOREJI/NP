@@ -1,0 +1,56 @@
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char **argv) {
+    int sockfd, n;
+    char sendline[100];
+    char recvline[100];
+    struct sockaddr_in servaddr;
+
+    // Create a socket
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+
+    // Initialize the server address structure
+    bzero(&servaddr, sizeof(servaddr));
+    servaddr.sin_family = AF_INET;
+    servaddr.sin_port = htons(22000);
+    servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");
+
+    // Establish a connection to the server
+    connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
+
+    // Enter a loop for communication with the server
+    while (1) {
+        bzero(sendline, 100);
+////////////////////*
+sendline: Pointer to Memory
+sendline is a pointer to the start of the memory block (buffer) that you want to set to zero.
+100: Number of Bytes
+The second parameter specifies the number of bytes to set to zero, starting from the memory location pointed to by sendline. In this case, it's set to 100, indicating that the first 100 bytes of memory will be cleared.
+Both bzero() and memset() set a range of bytes to zero, but memset() is more widely recognized and available across different platforms. *///////////////////
+        bzero(recvline, 100);
+
+        // Read a line of text from the user (stdin)
+        fgets(sendline, 100, stdin);
+///////*
+The function call fgets(sendline, 100, stdin); is used to read a line of text from the standard input (usually the keyboard) and store it in a buffer. 
+The fgets() function reads characters from the standard input until one of the following conditions is met:
+
+The maximum number of characters specified (100 in this case) is read.
+A newline character ('\n') is encountered.
+The end-of-file (EOF) is reached.
+*////////
+
+        // Send the user's input to the server
+        send(sockfd, sendline, strlen(sendline), 0);
+
+        // Receive the response from the server
+        recv(sockfd, recvline, 100, 0);
+
+        // Print the server's response
+        printf("%s", recvline);
+    }
+}
