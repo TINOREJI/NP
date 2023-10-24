@@ -28,7 +28,7 @@ After that, you can run the following command and access the application at 127.
 
 
 ## Demo
-# Upload the Infrared-Thermal Images
+### Upload the Infrared-Thermal Images
 
 ![test](https://github.com/TINOREJI/NP/assets/95184183/608cdc1c-010b-4fe9-9fb8-0a5e6dde4e7e)
 
