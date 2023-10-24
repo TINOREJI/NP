@@ -24,10 +24,10 @@ After that, you can run the following command and access the application at 127.
 ```bash
   $ python app.py
 ```
+![Screenshot 2023-10-25 043501](https://github.com/TINOREJI/NP/assets/95184183/983bd6ef-3032-459f-b3d8-6a6cc1cad3f5)
 
 
 ## Demo
-![Screenshot 2023-10-25 043501](https://github.com/TINOREJI/NP/assets/95184183/983bd6ef-3032-459f-b3d8-6a6cc1cad3f5)
 # Upload the Infrared-Thermal Images
 
 ![test](https://github.com/TINOREJI/NP/assets/95184183/608cdc1c-010b-4fe9-9fb8-0a5e6dde4e7e)
