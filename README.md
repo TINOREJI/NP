@@ -36,7 +36,7 @@ After that, you can run the following command and access the application at 127.
 
 ![1_60_60_0_00446](https://github.com/TINOREJI/NP/assets/95184183/a0435a7c-d721-47ab-9399-14e82157c589)
 
-## Result
+## Results
 ![test](https://github.com/TINOREJI/NP/assets/95184183/ccc546e7-9de2-4d23-92bf-3e4a730e2e7b)
 
 ![test2](https://github.com/TINOREJI/NP/assets/95184183/08b05572-4608-4faa-bd52-8e131d322824)
