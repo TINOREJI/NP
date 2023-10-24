@@ -31,16 +31,18 @@ After that, you can run the following command and access the application at 127.
 
 ## Demo
 Upload the Infrared-Thermal Images
-![Screenshot 2023-10-25 043501](https://github.com/TINOREJI/NP/assets/95184183/d30cff89-a143-450c-a2ac-af8254b10937)
 
+![test](https://github.com/TINOREJI/NP/assets/95184183/608cdc1c-010b-4fe9-9fb8-0a5e6dde4e7e)
 
-![1_60_60_0_00446](https://github.com/TINOR![test](https://github.com/TINOREJI/NP/assets/95184183/1376be4a-257c-42fa-aa3d-a7df733496fc)
-![test2](https://github.com/TINOREJI/NP/assets/95184183/ab4001f0-0388-4f9f-9383-6c3c22531441)
-Some Testing Images:![test](https://github.com/TINOREJI/NP/assets/95184183/81026ecd-8a3e-466a-bbde-f09065a1ba02)
+![test2](https://github.com/TINOREJI/NP/assets/95184183/0a74c8e3-9830-40f9-89df-02b10b77a16c)
+
+![1_60_60_0_00446](https://github.com/TINOREJI/NP/assets/95184183/a0435a7c-d721-47ab-9399-14e82157c589)
 
 ## Result
 ![test](https://github.com/TINOREJI/NP/assets/95184183/ccc546e7-9de2-4d23-92bf-3e4a730e2e7b)
+
 ![test2](https://github.com/TINOREJI/NP/assets/95184183/08b05572-4608-4faa-bd52-8e131d322824)
+
 ![image0](https://github.com/TINOREJI/NP/assets/95184183/6c4dc0a0-4bb1-462a-922a-a69d8dd4284a)
 
 
